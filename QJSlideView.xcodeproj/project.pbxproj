@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0BCF6421C9141110044448C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF6411C9141110044448C /* main.m */; };
+		D0BCF6451C9141110044448C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF6441C9141110044448C /* AppDelegate.m */; };
+		D0BCF6481C9141110044448C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF6471C9141110044448C /* ViewController.m */; };
+		D0BCF64B1C9141110044448C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BCF6491C9141110044448C /* Main.storyboard */; };
+		D0BCF64D1C9141110044448C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BCF64C1C9141110044448C /* Assets.xcassets */; };
+		D0BCF6501C9141110044448C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BCF64E1C9141110044448C /* LaunchScreen.storyboard */; };
+		D0BCF65B1C9141110044448C /* QJSlideViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF65A1C9141110044448C /* QJSlideViewTests.m */; };
+		D0BCF6661C9141110044448C /* QJSlideViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF6651C9141110044448C /* QJSlideViewUITests.m */; };
+		D0BCF6761C9142700044448C /* QJSlideButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF6751C9142700044448C /* QJSlideButtonView.m */; };
+		D0BCF6941C91467F0044448C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D0BCF6781C91467F0044448C /* LICENSE */; };
+		D0BCF6951C91467F0044448C /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF67B1C91467F0044448C /* MASCompositeConstraint.m */; };
+		D0BCF6961C91467F0044448C /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF67E1C91467F0044448C /* MASConstraint.m */; };
+		D0BCF6971C91467F0044448C /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF6801C91467F0044448C /* MASConstraintMaker.m */; };
+		D0BCF6981C91467F0044448C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF6821C91467F0044448C /* MASLayoutConstraint.m */; };
+		D0BCF6991C91467F0044448C /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF6861C91467F0044448C /* MASViewAttribute.m */; };
+		D0BCF69A1C91467F0044448C /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF6881C91467F0044448C /* MASViewConstraint.m */; };
+		D0BCF69B1C91467F0044448C /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF68A1C91467F0044448C /* NSArray+MASAdditions.m */; };
+		D0BCF69C1C91467F0044448C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF68D1C91467F0044448C /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		D0BCF69D1C91467F0044448C /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF68F1C91467F0044448C /* View+MASAdditions.m */; };
+		D0BCF69E1C91467F0044448C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF6921C91467F0044448C /* ViewController+MASAdditions.m */; };
+		D0BCF69F1C91467F0044448C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF6931C91467F0044448C /* README.md */; };
+		D0BCF6A21C9154650044448C /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF6A11C9154650044448C /* NavigationViewController.m */; };
+		D0FFAA661C91AE1E006E5FCD /* QJBigScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FFAA651C91AE1E006E5FCD /* QJBigScrollView.m */; };
+		D0FFAA6C1C93F5BD006E5FCD /* QJsampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FFAA6B1C93F5BD006E5FCD /* QJsampleView.m */; };
+		D0FFAA6F1C94317D006E5FCD /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FFAA6E1C94317D006E5FCD /* Helper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0BCF6571C9141110044448C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0BCF6351C9141110044448C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0BCF63C1C9141110044448C;
+			remoteInfo = QJSlideView;
+		};
+		D0BCF6621C9141110044448C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0BCF6351C9141110044448C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0BCF63C1C9141110044448C;
+			remoteInfo = QJSlideView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0BCF63D1C9141110044448C /* QJSlideView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QJSlideView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BCF6411C9141110044448C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0BCF6431C9141110044448C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0BCF6441C9141110044448C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0BCF6461C9141110044448C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0BCF6471C9141110044448C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0BCF64A1C9141110044448C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0BCF64C1C9141110044448C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0BCF64F1C9141110044448C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0BCF6511C9141110044448C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BCF6561C9141110044448C /* QJSlideViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QJSlideViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BCF65A1C9141110044448C /* QJSlideViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJSlideViewTests.m; sourceTree = "<group>"; };
+		D0BCF65C1C9141110044448C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BCF6611C9141110044448C /* QJSlideViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QJSlideViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BCF6651C9141110044448C /* QJSlideViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJSlideViewUITests.m; sourceTree = "<group>"; };
+		D0BCF6671C9141110044448C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BCF6741C9142700044448C /* QJSlideButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJSlideButtonView.h; sourceTree = "<group>"; };
+		D0BCF6751C9142700044448C /* QJSlideButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJSlideButtonView.m; sourceTree = "<group>"; };
+		D0BCF6781C91467F0044448C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D0BCF67A1C91467F0044448C /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		D0BCF67B1C91467F0044448C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		D0BCF67C1C91467F0044448C /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D0BCF67D1C91467F0044448C /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		D0BCF67E1C91467F0044448C /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		D0BCF67F1C91467F0044448C /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		D0BCF6801C91467F0044448C /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		D0BCF6811C91467F0044448C /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		D0BCF6821C91467F0044448C /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		D0BCF6831C91467F0044448C /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		D0BCF6841C91467F0044448C /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		D0BCF6851C91467F0044448C /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		D0BCF6861C91467F0044448C /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		D0BCF6871C91467F0044448C /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		D0BCF6881C91467F0044448C /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		D0BCF6891C91467F0044448C /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		D0BCF68A1C91467F0044448C /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		D0BCF68B1C91467F0044448C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D0BCF68C1C91467F0044448C /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		D0BCF68D1C91467F0044448C /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		D0BCF68E1C91467F0044448C /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		D0BCF68F1C91467F0044448C /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		D0BCF6901C91467F0044448C /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D0BCF6911C91467F0044448C /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		D0BCF6921C91467F0044448C /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		D0BCF6931C91467F0044448C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D0BCF6A01C9154650044448C /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		D0BCF6A11C9154650044448C /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		D0FFAA641C91AE1E006E5FCD /* QJBigScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJBigScrollView.h; sourceTree = "<group>"; };
+		D0FFAA651C91AE1E006E5FCD /* QJBigScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJBigScrollView.m; sourceTree = "<group>"; };
+		D0FFAA6A1C93F5BD006E5FCD /* QJsampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJsampleView.h; sourceTree = "<group>"; };
+		D0FFAA6B1C93F5BD006E5FCD /* QJsampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJsampleView.m; sourceTree = "<group>"; };
+		D0FFAA6D1C94317D006E5FCD /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		D0FFAA6E1C94317D006E5FCD /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0BCF63A1C9141110044448C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BCF6531C9141110044448C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BCF65E1C9141110044448C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0BCF6341C9141110044448C = {
+			isa = PBXGroup;
+			children = (
+				D0BCF63F1C9141110044448C /* QJSlideView */,
+				D0BCF6591C9141110044448C /* QJSlideViewTests */,
+				D0BCF6641C9141110044448C /* QJSlideViewUITests */,
+				D0BCF63E1C9141110044448C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0BCF63E1C9141110044448C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCF63D1C9141110044448C /* QJSlideView.app */,
+				D0BCF6561C9141110044448C /* QJSlideViewTests.xctest */,
+				D0BCF6611C9141110044448C /* QJSlideViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0BCF63F1C9141110044448C /* QJSlideView */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCF6731C91413B0044448C /* QjSlideView */,
+				D0BCF6431C9141110044448C /* AppDelegate.h */,
+				D0BCF6441C9141110044448C /* AppDelegate.m */,
+				D0BCF6A01C9154650044448C /* NavigationViewController.h */,
+				D0BCF6A11C9154650044448C /* NavigationViewController.m */,
+				D0BCF6461C9141110044448C /* ViewController.h */,
+				D0BCF6471C9141110044448C /* ViewController.m */,
+				D0BCF6491C9141110044448C /* Main.storyboard */,
+				D0BCF64C1C9141110044448C /* Assets.xcassets */,
+				D0BCF64E1C9141110044448C /* LaunchScreen.storyboard */,
+				D0BCF6511C9141110044448C /* Info.plist */,
+				D0BCF6401C9141110044448C /* Supporting Files */,
+			);
+			path = QJSlideView;
+			sourceTree = "<group>";
+		};
+		D0BCF6401C9141110044448C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCF6411C9141110044448C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0BCF6591C9141110044448C /* QJSlideViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCF65A1C9141110044448C /* QJSlideViewTests.m */,
+				D0BCF65C1C9141110044448C /* Info.plist */,
+			);
+			path = QJSlideViewTests;
+			sourceTree = "<group>";
+		};
+		D0BCF6641C9141110044448C /* QJSlideViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCF6651C9141110044448C /* QJSlideViewUITests.m */,
+				D0BCF6671C9141110044448C /* Info.plist */,
+			);
+			path = QJSlideViewUITests;
+			sourceTree = "<group>";
+		};
+		D0BCF6731C91413B0044448C /* QjSlideView */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCF6771C91467F0044448C /* Masonry */,
+				D0BCF6741C9142700044448C /* QJSlideButtonView.h */,
+				D0BCF6751C9142700044448C /* QJSlideButtonView.m */,
+				D0FFAA641C91AE1E006E5FCD /* QJBigScrollView.h */,
+				D0FFAA651C91AE1E006E5FCD /* QJBigScrollView.m */,
+				D0FFAA6A1C93F5BD006E5FCD /* QJsampleView.h */,
+				D0FFAA6B1C93F5BD006E5FCD /* QJsampleView.m */,
+				D0FFAA6D1C94317D006E5FCD /* Helper.h */,
+				D0FFAA6E1C94317D006E5FCD /* Helper.m */,
+			);
+			name = QjSlideView;
+			sourceTree = "<group>";
+		};
+		D0BCF6771C91467F0044448C /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCF6781C91467F0044448C /* LICENSE */,
+				D0BCF6791C91467F0044448C /* Masonry */,
+				D0BCF6931C91467F0044448C /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		D0BCF6791C91467F0044448C /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCF67A1C91467F0044448C /* MASCompositeConstraint.h */,
+				D0BCF67B1C91467F0044448C /* MASCompositeConstraint.m */,
+				D0BCF67C1C91467F0044448C /* MASConstraint+Private.h */,
+				D0BCF67D1C91467F0044448C /* MASConstraint.h */,
+				D0BCF67E1C91467F0044448C /* MASConstraint.m */,
+				D0BCF67F1C91467F0044448C /* MASConstraintMaker.h */,
+				D0BCF6801C91467F0044448C /* MASConstraintMaker.m */,
+				D0BCF6811C91467F0044448C /* MASLayoutConstraint.h */,
+				D0BCF6821C91467F0044448C /* MASLayoutConstraint.m */,
+				D0BCF6831C91467F0044448C /* Masonry.h */,
+				D0BCF6841C91467F0044448C /* MASUtilities.h */,
+				D0BCF6851C91467F0044448C /* MASViewAttribute.h */,
+				D0BCF6861C91467F0044448C /* MASViewAttribute.m */,
+				D0BCF6871C91467F0044448C /* MASViewConstraint.h */,
+				D0BCF6881C91467F0044448C /* MASViewConstraint.m */,
+				D0BCF6891C91467F0044448C /* NSArray+MASAdditions.h */,
+				D0BCF68A1C91467F0044448C /* NSArray+MASAdditions.m */,
+				D0BCF68B1C91467F0044448C /* NSArray+MASShorthandAdditions.h */,
+				D0BCF68C1C91467F0044448C /* NSLayoutConstraint+MASDebugAdditions.h */,
+				D0BCF68D1C91467F0044448C /* NSLayoutConstraint+MASDebugAdditions.m */,
+				D0BCF68E1C91467F0044448C /* View+MASAdditions.h */,
+				D0BCF68F1C91467F0044448C /* View+MASAdditions.m */,
+				D0BCF6901C91467F0044448C /* View+MASShorthandAdditions.h */,
+				D0BCF6911C91467F0044448C /* ViewController+MASAdditions.h */,
+				D0BCF6921C91467F0044448C /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0BCF63C1C9141110044448C /* QJSlideView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BCF66A1C9141110044448C /* Build configuration list for PBXNativeTarget "QJSlideView" */;
+			buildPhases = (
+				D0BCF6391C9141110044448C /* Sources */,
+				D0BCF63A1C9141110044448C /* Frameworks */,
+				D0BCF63B1C9141110044448C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QJSlideView;
+			productName = QJSlideView;
+			productReference = D0BCF63D1C9141110044448C /* QJSlideView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0BCF6551C9141110044448C /* QJSlideViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BCF66D1C9141110044448C /* Build configuration list for PBXNativeTarget "QJSlideViewTests" */;
+			buildPhases = (
+				D0BCF6521C9141110044448C /* Sources */,
+				D0BCF6531C9141110044448C /* Frameworks */,
+				D0BCF6541C9141110044448C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BCF6581C9141110044448C /* PBXTargetDependency */,
+			);
+			name = QJSlideViewTests;
+			productName = QJSlideViewTests;
+			productReference = D0BCF6561C9141110044448C /* QJSlideViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0BCF6601C9141110044448C /* QJSlideViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BCF6701C9141110044448C /* Build configuration list for PBXNativeTarget "QJSlideViewUITests" */;
+			buildPhases = (
+				D0BCF65D1C9141110044448C /* Sources */,
+				D0BCF65E1C9141110044448C /* Frameworks */,
+				D0BCF65F1C9141110044448C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BCF6631C9141110044448C /* PBXTargetDependency */,
+			);
+			name = QJSlideViewUITests;
+			productName = QJSlideViewUITests;
+			productReference = D0BCF6611C9141110044448C /* QJSlideViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0BCF6351C9141110044448C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Justin;
+				TargetAttributes = {
+					D0BCF63C1C9141110044448C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D0BCF6551C9141110044448C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D0BCF63C1C9141110044448C;
+					};
+					D0BCF6601C9141110044448C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D0BCF63C1C9141110044448C;
+					};
+				};
+			};
+			buildConfigurationList = D0BCF6381C9141110044448C /* Build configuration list for PBXProject "QJSlideView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0BCF6341C9141110044448C;
+			productRefGroup = D0BCF63E1C9141110044448C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0BCF63C1C9141110044448C /* QJSlideView */,
+				D0BCF6551C9141110044448C /* QJSlideViewTests */,
+				D0BCF6601C9141110044448C /* QJSlideViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0BCF63B1C9141110044448C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BCF6501C9141110044448C /* LaunchScreen.storyboard in Resources */,
+				D0BCF64D1C9141110044448C /* Assets.xcassets in Resources */,
+				D0BCF6941C91467F0044448C /* LICENSE in Resources */,
+				D0BCF64B1C9141110044448C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BCF6541C9141110044448C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BCF65F1C9141110044448C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0BCF6391C9141110044448C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BCF6971C91467F0044448C /* MASConstraintMaker.m in Sources */,
+				D0BCF6481C9141110044448C /* ViewController.m in Sources */,
+				D0BCF6761C9142700044448C /* QJSlideButtonView.m in Sources */,
+				D0FFAA6C1C93F5BD006E5FCD /* QJsampleView.m in Sources */,
+				D0BCF6961C91467F0044448C /* MASConstraint.m in Sources */,
+				D0BCF6A21C9154650044448C /* NavigationViewController.m in Sources */,
+				D0BCF69E1C91467F0044448C /* ViewController+MASAdditions.m in Sources */,
+				D0BCF6981C91467F0044448C /* MASLayoutConstraint.m in Sources */,
+				D0BCF69B1C91467F0044448C /* NSArray+MASAdditions.m in Sources */,
+				D0FFAA6F1C94317D006E5FCD /* Helper.m in Sources */,
+				D0BCF69A1C91467F0044448C /* MASViewConstraint.m in Sources */,
+				D0BCF6991C91467F0044448C /* MASViewAttribute.m in Sources */,
+				D0BCF69D1C91467F0044448C /* View+MASAdditions.m in Sources */,
+				D0BCF6451C9141110044448C /* AppDelegate.m in Sources */,
+				D0BCF6421C9141110044448C /* main.m in Sources */,
+				D0BCF69F1C91467F0044448C /* README.md in Sources */,
+				D0FFAA661C91AE1E006E5FCD /* QJBigScrollView.m in Sources */,
+				D0BCF6951C91467F0044448C /* MASCompositeConstraint.m in Sources */,
+				D0BCF69C1C91467F0044448C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BCF6521C9141110044448C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BCF65B1C9141110044448C /* QJSlideViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BCF65D1C9141110044448C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BCF6661C9141110044448C /* QJSlideViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0BCF6581C9141110044448C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0BCF63C1C9141110044448C /* QJSlideView */;
+			targetProxy = D0BCF6571C9141110044448C /* PBXContainerItemProxy */;
+		};
+		D0BCF6631C9141110044448C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0BCF63C1C9141110044448C /* QJSlideView */;
+			targetProxy = D0BCF6621C9141110044448C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0BCF6491C9141110044448C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0BCF64A1C9141110044448C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0BCF64E1C9141110044448C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0BCF64F1C9141110044448C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0BCF6681C9141110044448C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0BCF6691C9141110044448C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0BCF66B1C9141110044448C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QJSlideView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7589026-qq.com.QJSlideView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0BCF66C1C9141110044448C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QJSlideView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7589026-qq.com.QJSlideView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0BCF66E1C9141110044448C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QJSlideViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-589026-qq.com.QJSlideViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QJSlideView.app/QJSlideView";
+			};
+			name = Debug;
+		};
+		D0BCF66F1C9141110044448C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QJSlideViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-589026-qq.com.QJSlideViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QJSlideView.app/QJSlideView";
+			};
+			name = Release;
+		};
+		D0BCF6711C9141110044448C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QJSlideViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-589026-qq.com.QJSlideViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QJSlideView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D0BCF6721C9141110044448C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QJSlideViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-589026-qq.com.QJSlideViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QJSlideView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0BCF6381C9141110044448C /* Build configuration list for PBXProject "QJSlideView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BCF6681C9141110044448C /* Debug */,
+				D0BCF6691C9141110044448C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BCF66A1C9141110044448C /* Build configuration list for PBXNativeTarget "QJSlideView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BCF66B1C9141110044448C /* Debug */,
+				D0BCF66C1C9141110044448C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BCF66D1C9141110044448C /* Build configuration list for PBXNativeTarget "QJSlideViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BCF66E1C9141110044448C /* Debug */,
+				D0BCF66F1C9141110044448C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BCF6701C9141110044448C /* Build configuration list for PBXNativeTarget "QJSlideViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BCF6711C9141110044448C /* Debug */,
+				D0BCF6721C9141110044448C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0BCF6351C9141110044448C /* Project object */;
+}

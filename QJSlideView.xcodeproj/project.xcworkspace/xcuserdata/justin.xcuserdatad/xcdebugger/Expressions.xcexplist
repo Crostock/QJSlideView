@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[QJSlideButtonView confingSubviews]:QJSlideButtonView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.titleContentOrigin_X_Arr">
+            </PersistentString>
+            <PersistentString
+               value = "self.titleContentSize_Width_Arr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__32-[QJBigScrollView initRightView]_block_invoke:QJBigScrollView.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[QJBigScrollView removeRightView:]:QJBigScrollView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.reuseViewArr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[QJBigScrollView showImageViewAtIndex:]:QJBigScrollView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.reusedImageViews">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[QJBigScrollView removeLeftView:]:QJBigScrollView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.reuseViewArr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[QJBigScrollView ContentView:]:QJBigScrollView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.titleArr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__33-[QJBigScrollView initRightView:]_block_invoke:QJBigScrollView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.reuseViewArr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[QJBigScrollView getReuseViewFromArr:]:QJBigScrollView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.reuseViewArr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[QJBigScrollView scrollViewDidEndDecelerating:]:QJBigScrollView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.xIndex">
+            </PersistentString>
+            <PersistentString
+               value = "scrollView.contentOffset.x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[QJBigScrollView reflashUI:Index:]:QJBigScrollView.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
