@@ -13,6 +13,7 @@ QJSlideView
 ### About
 **QJSlideView** 在滑动过程中会对大scrollView上的视图进行重用,并且在没有滑动到边界时,滑块始终保持在屏幕中间位置.通过Block回调对当前正在显示的分类进行数据刷新.
 
+解决屏幕适配问题,现在适配iPhone的各种机型
 
 ### Installation Instructions:
 

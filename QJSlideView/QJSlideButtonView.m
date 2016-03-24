@@ -14,8 +14,14 @@
  */
 #define Screen_Width    ([UIScreen mainScreen].bounds.size.width)
 #define Screen_Height   ([UIScreen mainScreen].bounds.size.height)
-#define ButtonSpace     20
+
+#define ButtonSpace     Screen_Width * 20/414
 #define BaseTag         10000
+
+#define TITLEFONT 20*Screen_Height/736
+
+
+
 /**
  *  clolor
  */
@@ -79,7 +85,7 @@
 -(void)confingSubviews
 {
     float contentWidth = 0.0;
-    float Origin_X = 10.0;
+    float Origin_X = ButtonSpace/2;
     for (int i = 0; i < self.titleArr.count; i ++) {
         UIButton *titleBt = [UIButton buttonWithType:UIButtonTypeCustom];
         NSString *title = [self.titleArr objectAtIndex:i];
@@ -89,14 +95,14 @@
             BeforeButtonTag = i;
         }
         [titleBt setTitle:title forState:UIControlStateNormal];
-        titleBt.titleLabel.font = [UIFont systemFontOfSize:20.0];
+        titleBt.titleLabel.font = [UIFont systemFontOfSize:TITLEFONT];
         [titleBt setTitleColor:UIColorFromRGB(0x868686) forState:UIControlStateNormal];
         [titleBt setTitleColor:UIColorFromRGB(0x5c8aea) forState:UIControlStateSelected];
         [titleBt addTarget:self action:@selector(selectType:) forControlEvents:UIControlEventTouchUpInside];
         [titleBt setBackgroundColor:UIColorFromRGB(0xf5f5f5)];
 
-        NSDictionary *attributes = @{NSFontAttributeName:[UIFont systemFontOfSize:20]};
-        CGSize textSize = [title boundingRectWithSize:CGSizeMake(200, 44) options:NSStringDrawingTruncatesLastVisibleLine attributes:attributes context:nil].size;
+        NSDictionary *attributes = @{NSFontAttributeName:[UIFont systemFontOfSize:TITLEFONT + 1]};
+        CGSize textSize = [title boundingRectWithSize:CGSizeMake(ButtonSpace*11, 44) options:NSStringDrawingTruncatesLastVisibleLine attributes:attributes context:nil].size;
         [self addSubview:titleBt];
         
         [titleBt mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -110,7 +116,7 @@
         Origin_X += textSize.width + ButtonSpace;
         [self.titleContentSize_Width_Arr addObject:@(textSize.width)];
     }
-    contentSize_width = contentWidth + 10;
+    contentSize_width = contentWidth + ButtonSpace/2;
     self.contentSize = CGSizeMake(contentSize_width, 44);
 
     [self addSubview:self.lineView];
